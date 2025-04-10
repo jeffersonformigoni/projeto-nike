@@ -12,10 +12,7 @@ function mudarVisual(cor, imagem){
     body.style.background = cor
     texto.style.color = cor // Adiciona a troca de cor do h1
     preco.style.color = cor // Adiciona a troca de cor do h4
-
-
     
-
     // contador de tempo
     setTimeout(() => {
         tenis.src = imagem
