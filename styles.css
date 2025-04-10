@@ -81,6 +81,13 @@ p {
 .imagem-tenis {
     width: 800px;
     transform: rotate(-25deg);
+    filter: drop-shadow(30px 45px 40px #161616);
+    transition: 1s;
+}
+
+.troca-efeito {
+    opacity: 0;
+    transform: rotate(-25deg) translateY(-30px);
 }
 
 .caixa-principal {
@@ -128,4 +135,12 @@ p {
 
 .rosa {
     background: #ff9eb5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: right;
 }
